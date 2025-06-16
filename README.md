@@ -13,36 +13,35 @@ This project is a real-time fatigue detection system using computer vision and f
 ## 📁 Project Structure
 
 fatigue-detection/
-├── fatiguedetection.py                 # Main script
-├── music.wav                           # Alarm sound
-├── models/
-│   └── shape_predictor_68_face_landmarks.dat   # Pre-trained dlib model
-⚙️ Installation
+- ├── fatiguedetection.py                 # Main script
+- ├── music.wav                           # Alarm sound
+- ├── models/
+- │   └── shape_predictor_68_face_landmarks.dat   # Pre-trained dlib model
+  
+## ⚙️ Installation
 
-## Clone the repository:
-git clone https://github.com/yourusername/fatigue-detection.git
+### 1. Clone the repository:
+- git clone https://github.com/yourusername/fatigue-detection.git
 - cd fatigue-detection
 
-## 2.Install dependencies:
-pip install -r requirements.txt
-- If requirements.txt is not available, install manually
-pip install opencv-python imutils dlib scipy pygame pyTelegramBotAPI
+### 2.Install dependencies:
+- pip install -r requirements.txt
 
-## 3.🚀 How to Run
-python fatiguedetection.py
+### 3.🚀 How to Run
+- python fatiguedetection.py
 - Make sure your webcam is connected and working.
 - Press q to exit the program.
 
-## 4.📲 Telegram Alerts Setup
+### 4.📲 Telegram Alerts Setup
 
 - Create a Telegram bot via BotFather and get your API token.
 - Get the chat ID of your emergency contact:
 - Start a chat with your bot
 - Use tools like get_id_bot
 
-## 5.✅ Output
+## ✅ Output
 
-#### Displays live video feed with contours drawn on eyes and mouth
+### Displays live video feed with contours drawn on eyes and mouth
 
 - Text annotations:
 - “Drowsy!”
@@ -61,6 +60,6 @@ python fatiguedetection.py
 - Sleep Detection Using Head Pose: Incorporate head pose estimation to detect nodding off or slumping, which are common in fatigue.
 
 ## 🙋‍♀️ Author
-Shreya Mohan:shreyamohan74@gmail.com
+- Shreya Mohan:shreyamohan74@gmail.com
 - Open to feedback and collaboration!
 
